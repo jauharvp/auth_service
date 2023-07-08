@@ -1,0 +1,11 @@
+/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/deps/socket2-3a0a473a6404d5d3.rmeta: /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.3/src/lib.rs /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.3/src/sockaddr.rs /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.3/src/socket.rs /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.3/src/sockref.rs /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.3/src/sys/unix.rs
+
+/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/deps/libsocket2-3a0a473a6404d5d3.rlib: /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.3/src/lib.rs /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.3/src/sockaddr.rs /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.3/src/socket.rs /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.3/src/sockref.rs /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.3/src/sys/unix.rs
+
+/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/deps/socket2-3a0a473a6404d5d3.d: /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.3/src/lib.rs /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.3/src/sockaddr.rs /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.3/src/socket.rs /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.3/src/sockref.rs /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.3/src/sys/unix.rs
+
+/Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.3/src/lib.rs:
+/Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.3/src/sockaddr.rs:
+/Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.3/src/socket.rs:
+/Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.3/src/sockref.rs:
+/Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.3/src/sys/unix.rs:
