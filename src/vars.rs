@@ -63,3 +63,8 @@ pub fn smtp_sender_name(){
     var("SMTP_SENDER_NAME").expect("SMTP_SENDER_NAME is not set")
     
 }
+
+
+
+
+// https://medium.com/swlh/creating-a-web-and-api-authentication-service-in-rust-55d0b0a848d
