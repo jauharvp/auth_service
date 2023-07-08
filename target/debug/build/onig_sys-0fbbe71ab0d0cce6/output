@@ -1,0 +1,342 @@
+TARGET = Some("aarch64-apple-darwin")
+OPT_LEVEL = Some("0")
+HOST = Some("aarch64-apple-darwin")
+cargo:rerun-if-env-changed=CC_aarch64-apple-darwin
+CC_aarch64-apple-darwin = None
+cargo:rerun-if-env-changed=CC_aarch64_apple_darwin
+CC_aarch64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CFLAGS_aarch64-apple-darwin
+CFLAGS_aarch64-apple-darwin = None
+cargo:rerun-if-env-changed=CFLAGS_aarch64_apple_darwin
+CFLAGS_aarch64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("aes,crc,dit,dotprod,dpb,dpb2,fcma,fhm,flagm,fp16,frintts,jsconv,lor,lse,neon,paca,pacg,pan,pmuv3,ras,rcpc,rcpc2,rdm,sb,sha2,sha3,ssbs,vh")
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/regcomp.o" "-c" "oniguruma/src/regcomp.c"
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/regexec.o" "-c" "oniguruma/src/regexec.c"
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/st.o" "-c" "oniguruma/src/st.c"
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/regerror.o" "-c" "oniguruma/src/regerror.c"
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/regenc.o" "-c" "oniguruma/src/regenc.c"
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/regsyntax.o" "-c" "oniguruma/src/regsyntax.c"
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/regversion.o" "-c" "oniguruma/src/regversion.c"
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/regtrav.o" "-c" "oniguruma/src/regtrav.c"
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/regext.o" "-c" "oniguruma/src/regext.c"
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/regparse.o" "-c" "oniguruma/src/regparse.c"
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/reggnu.o" "-c" "oniguruma/src/reggnu.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/regposerr.o" "-c" "oniguruma/src/regposerr.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/onig_init.o" "-c" "oniguruma/src/onig_init.c"
+exit status: 0
+cargo:warning=oniguruma/src/st.c:104:1: warning: a function declaration without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+cargo:warning=new_size(size)
+cargo:warning=^
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/unicode.o" "-c" "oniguruma/src/unicode.c"
+cargo:warning=oniguruma/src/st.c:143:1: warning: a function declaration without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+cargo:warning=st_init_table_with_size(type, size)
+cargo:warning=^
+cargo:warning=oniguruma/src/regint.h:97:40: note: expanded from macro 'st_init_table_with_size'
+cargo:warning=#define st_init_table_with_size        onig_st_init_table_with_size
+cargo:warning=                                       ^
+cargo:warning=oniguruma/src/st.c:174:1: warning: a function declaration without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+cargo:warning=st_init_table(type)
+cargo:warning=^
+cargo:warning=oniguruma/src/regint.h:96:40: note: expanded from macro 'st_init_table'
+cargo:warning=#define st_init_table                  onig_st_init_table
+cargo:warning=                                       ^
+cargo:warning=oniguruma/src/st.c:187:1: warning: a function declaration without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+cargo:warning=st_init_numtable_with_size(size)
+cargo:warning=^
+cargo:warning=oniguruma/src/regint.h:99:40: note: expanded from macro 'st_init_numtable_with_size'
+cargo:warning=#define st_init_numtable_with_size     onig_st_init_numtable_with_size
+cargo:warning=                                       ^
+cargo:warning=oniguruma/src/st.c:200:1: warning: a function declaration without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+cargo:warning=st_init_strtable_with_size(size)
+cargo:warning=^
+cargo:warning=oniguruma/src/regint.h:101:40: note: expanded from macro 'st_init_strtable_with_size'
+cargo:warning=#define st_init_strtable_with_size     onig_st_init_strtable_with_size
+cargo:warning=                                       ^
+cargo:warning=oniguruma/src/st.c:207:1: warning: a function declaration without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+cargo:warning=st_free_table(table)
+cargo:warning=^
+cargo:warning=oniguruma/src/regint.h:108:40: note: expanded from macro 'st_free_table'
+cargo:warning=#define st_free_table                  onig_st_free_table
+cargo:warning=                                       ^
+cargo:warning=oniguruma/src/st.c:247:1: warning: a function declaration without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+cargo:warning=st_lookup(table, key, value)
+cargo:warning=^
+cargo:warning=oniguruma/src/regint.h:105:40: note: expanded from macro 'st_lookup'
+cargo:warning=#define st_lookup                      onig_st_lookup
+cargo:warning=                                       ^
+cargo:warning=oniguruma/src/st.c:255:14: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+cargo:warning=  hash_val = do_hash(key, table);
+cargo:warning=             ^
+cargo:warning=oniguruma/src/st.c:59:64: note: expanded from macro 'do_hash'
+cargo:warning=#define do_hash(key,table) (unsigned int)(*(table)->type->hash)((key))
+cargo:warning=                                                               ^
+cargo:warning=oniguruma/src/st.c:256:3: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+cargo:warning=  FIND_ENTRY(table, ptr, hash_val, bin_pos);
+cargo:warning=  ^
+cargo:warning=oniguruma/src/st.c:237:9: note: expanded from macro 'FIND_ENTRY'
+cargo:warning=    if (PTR_NOT_EQUAL(table, ptr, hash_val, key)) {\
+cargo:warning=        ^
+cargo:warning=oniguruma/src/st.c:226:45: note: expanded from macro 'PTR_NOT_EQUAL'
+cargo:warning=((ptr) != 0 && (ptr->hash != (hash_val) || !EQUAL((table), (key), (ptr)->key)))
+cargo:warning=                                            ^
+cargo:warning=oniguruma/src/st.c:57:62: note: expanded from macro 'EQUAL'
+cargo:warning=#define EQUAL(table,x,y) ((x)==(y) || (*table->type->compare)((x),(y)) == 0)
+cargo:warning=                                                             ^
+cargo:warning=oniguruma/src/st.c:256:3: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+cargo:warning=oniguruma/src/st.c:239:14: note: expanded from macro 'FIND_ENTRY'
+cargo:warning=      while (PTR_NOT_EQUAL(table, ptr->next, hash_val, key)) {\
+cargo:warning=             ^
+cargo:warning=oniguruma/src/st.c:226:45: note: expanded from macro 'PTR_NOT_EQUAL'
+cargo:warning=((ptr) != 0 && (ptr->hash != (hash_val) || !EQUAL((table), (key), (ptr)->key)))
+cargo:warning=                                            ^
+cargo:warning=oniguruma/src/st.c:57:62: note: expanded from macro 'EQUAL'
+cargo:warning=#define EQUAL(table,x,y) ((x)==(y) || (*table->type->compare)((x),(y)) == 0)
+cargo:warning=                                                             ^
+cargo:warning=oniguruma/src/st.c:285:1: warning: a function declaration without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+cargo:warning=st_insert(table, key, value)
+cargo:warning=^
+cargo:warning=oniguruma/src/regint.h:104:40: note: expanded from macro 'st_insert'
+cargo:warning=#define st_insert                      onig_st_insert
+cargo:warning=                                       ^
+cargo:warning=oniguruma/src/st.c:293:14: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+cargo:warning=  hash_val = do_hash(key, table);
+cargo:warning=             ^
+cargo:warning=oniguruma/src/st.c:59:64: note: expanded from macro 'do_hash'
+cargo:warning=#define do_hash(key,table) (unsigned int)(*(table)->type->hash)((key))
+cargo:warning=                                                               ^
+exit status: 0
+cargo:warning=oniguruma/src/st.c:294:3: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+cargo:warning=  FIND_ENTRY(table, ptr, hash_val, bin_pos);
+cargo:warning=  ^
+cargo:warning=oniguruma/src/st.c:237:9: note: expanded from macro 'FIND_ENTRY'
+cargo:warning=    if (PTR_NOT_EQUAL(table, ptr, hash_val, key)) {\
+cargo:warning=        ^
+cargo:warning=oniguruma/src/st.c:226:45: note: expanded from macro 'PTR_NOT_EQUAL'
+cargo:warning=((ptr) != 0 && (ptr->hash != (hash_val) || !EQUAL((table), (key), (ptr)->key)))
+cargo:warning=                                            ^
+cargo:warning=oniguruma/src/st.c:57:62: note: expanded from macro 'EQUAL'
+cargo:warning=#define EQUAL(table,x,y) ((x)==(y) || (*table->type->compare)((x),(y)) == 0)
+cargo:warning=                                                             ^
+cargo:warning=oniguruma/src/st.c:294:3: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+cargo:warning=oniguruma/src/st.c:239:14: note: expanded from macro 'FIND_ENTRY'
+cargo:warning=      while (PTR_NOT_EQUAL(table, ptr->next, hash_val, key)) {\
+cargo:warning=             ^
+cargo:warning=oniguruma/src/st.c:226:45: note: expanded from macro 'PTR_NOT_EQUAL'
+cargo:warning=((ptr) != 0 && (ptr->hash != (hash_val) || !EQUAL((table), (key), (ptr)->key)))
+cargo:warning=                                            ^
+cargo:warning=oniguruma/src/st.c:57:62: note: expanded from macro 'EQUAL'
+cargo:warning=#define EQUAL(table,x,y) ((x)==(y) || (*table->type->compare)((x),(y)) == 0)
+cargo:warning=                                                             ^
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/ascii.o" "-c" "oniguruma/src/ascii.c"
+cargo:warning=oniguruma/src/st.c:307:1: warning: a function declaration without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+cargo:warning=st_add_direct(table, key, value)
+cargo:warning=^
+cargo:warning=oniguruma/src/regint.h:107:40: note: expanded from macro 'st_add_direct'
+cargo:warning=#define st_add_direct                  onig_st_add_direct
+cargo:warning=                                       ^
+cargo:warning=oniguruma/src/st.c:314:14: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+cargo:warning=  hash_val = do_hash(key, table);
+cargo:warning=             ^
+cargo:warning=oniguruma/src/st.c:59:64: note: expanded from macro 'do_hash'
+cargo:warning=#define do_hash(key,table) (unsigned int)(*(table)->type->hash)((key))
+cargo:warning=                                                               ^
+cargo:warning=oniguruma/src/st.c:320:1: warning: a function declaration without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+cargo:warning=rehash(table)
+cargo:warning=^
+cargo:warning=oniguruma/src/st.c:320:1: warning: a function declaration without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+cargo:warning=oniguruma/src/st.c:349:1: warning: a function declaration without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+cargo:warning=st_copy(old_table)
+cargo:warning=^
+cargo:warning=oniguruma/src/regint.h:110:40: note: expanded from macro 'st_copy'
+cargo:warning=#define st_copy                        onig_st_copy
+cargo:warning=                                       ^
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/utf8.o" "-c" "oniguruma/src/utf8.c"
+cargo:warning=oniguruma/src/st.c:390:1: warning: a function declaration without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+cargo:warning=st_delete(table, key, value)
+cargo:warning=^
+cargo:warning=oniguruma/src/regint.h:102:40: note: expanded from macro 'st_delete'
+cargo:warning=#define st_delete                      onig_st_delete
+cargo:warning=                                       ^
+cargo:warning=oniguruma/src/st.c:399:14: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+cargo:warning=  hash_val = do_hash_bin(*key, table);
+cargo:warning=             ^
+cargo:warning=oniguruma/src/st.c:60:33: note: expanded from macro 'do_hash_bin'
+cargo:warning=#define do_hash_bin(key,table) (do_hash(key, table)%(table)->num_bins)
+cargo:warning=                                ^
+cargo:warning=oniguruma/src/st.c:59:64: note: expanded from macro 'do_hash'
+cargo:warning=#define do_hash(key,table) (unsigned int)(*(table)->type->hash)((key))
+cargo:warning=                                                               ^
+cargo:warning=oniguruma/src/st.c:407:7: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+cargo:warning=  if (EQUAL(table, *key, ptr->key)) {
+cargo:warning=      ^
+cargo:warning=oniguruma/src/st.c:57:62: note: expanded from macro 'EQUAL'
+cargo:warning=#define EQUAL(table,x,y) ((x)==(y) || (*table->type->compare)((x),(y)) == 0)
+cargo:warning=                                                             ^
+cargo:warning=oniguruma/src/st.c:417:9: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+cargo:warning=    if (EQUAL(table, ptr->next->key, *key)) {
+cargo:warning=        ^
+cargo:warning=oniguruma/src/st.c:57:62: note: expanded from macro 'EQUAL'
+cargo:warning=#define EQUAL(table,x,y) ((x)==(y) || (*table->type->compare)((x),(y)) == 0)
+cargo:warning=                                                             ^
+cargo:warning=oniguruma/src/st.c:432:1: warning: a function declaration without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+cargo:warning=st_delete_safe(table, key, value, never)
+cargo:warning=^
+cargo:warning=oniguruma/src/regint.h:103:40: note: expanded from macro 'st_delete_safe'
+cargo:warning=#define st_delete_safe                 onig_st_delete_safe
+cargo:warning=                                       ^
+cargo:warning=oniguruma/src/st.c:441:14: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+cargo:warning=  hash_val = do_hash_bin(*key, table);
+cargo:warning=             ^
+cargo:warning=oniguruma/src/st.c:60:33: note: expanded from macro 'do_hash_bin'
+cargo:warning=#define do_hash_bin(key,table) (do_hash(key, table)%(table)->num_bins)
+cargo:warning=                                ^
+cargo:warning=oniguruma/src/st.c:59:64: note: expanded from macro 'do_hash'
+cargo:warning=#define do_hash(key,table) (unsigned int)(*(table)->type->hash)((key))
+cargo:warning=                                                               ^
+cargo:warning=oniguruma/src/st.c:450:32: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+cargo:warning=    if ((ptr->key != never) && EQUAL(table, ptr->key, *key)) {
+cargo:warning=                               ^
+cargo:warning=oniguruma/src/st.c:57:62: note: expanded from macro 'EQUAL'
+cargo:warning=#define EQUAL(table,x,y) ((x)==(y) || (*table->type->compare)((x),(y)) == 0)
+cargo:warning=                                                             ^
+cargo:warning=oniguruma/src/st.c:476:1: warning: a function declaration without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+cargo:warning=st_cleanup_safe(table, never)
+cargo:warning=^
+cargo:warning=oniguruma/src/regint.h:109:40: note: expanded from macro 'st_cleanup_safe'
+cargo:warning=#define st_cleanup_safe                onig_st_cleanup_safe
+cargo:warning=                                       ^
+cargo:warning=oniguruma/src/st.c:487:1: warning: a function declaration without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+cargo:warning=st_foreach(table, func, arg)
+cargo:warning=^
+cargo:warning=oniguruma/src/regint.h:106:40: note: expanded from macro 'st_foreach'
+cargo:warning=#define st_foreach                     onig_st_foreach
+cargo:warning=                                       ^
+cargo:warning=oniguruma/src/st.c:499:22: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+cargo:warning=            retval = (*func)(ptr->key, ptr->record, arg);
+cargo:warning=                            ^
+cargo:warning=oniguruma/src/st.c:537:1: warning: a function declaration without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+cargo:warning=strhash(string)
+cargo:warning=^
+cargo:warning=oniguruma/src/st.c:537:1: warning: a function declaration without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+cargo:warning=oniguruma/src/st.c:576:1: warning: a function declaration without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+cargo:warning=numcmp(x, y)
+cargo:warning=^
+cargo:warning=oniguruma/src/st.c:576:1: warning: a function declaration without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+cargo:warning=oniguruma/src/st.c:583:1: warning: a function declaration without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+cargo:warning=numhash(n)
+cargo:warning=^
+cargo:warning=oniguruma/src/st.c:583:1: warning: a function declaration without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/utf16_be.o" "-c" "oniguruma/src/utf16_be.c"
+cargo:warning=35 warnings generated.
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/utf16_le.o" "-c" "oniguruma/src/utf16_le.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/utf32_be.o" "-c" "oniguruma/src/utf32_be.c"
+exit status: 0
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/utf32_le.o" "-c" "oniguruma/src/utf32_le.c"
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/euc_jp.o" "-c" "oniguruma/src/euc_jp.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/sjis.o" "-c" "oniguruma/src/sjis.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/iso8859_1.o" "-c" "oniguruma/src/iso8859_1.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/iso8859_2.o" "-c" "oniguruma/src/iso8859_2.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/iso8859_3.o" "-c" "oniguruma/src/iso8859_3.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/iso8859_4.o" "-c" "oniguruma/src/iso8859_4.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/iso8859_5.o" "-c" "oniguruma/src/iso8859_5.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/iso8859_6.o" "-c" "oniguruma/src/iso8859_6.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/iso8859_7.o" "-c" "oniguruma/src/iso8859_7.c"
+exit status: 0
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/iso8859_8.o" "-c" "oniguruma/src/iso8859_8.c"
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/iso8859_9.o" "-c" "oniguruma/src/iso8859_9.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/iso8859_10.o" "-c" "oniguruma/src/iso8859_10.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/iso8859_11.o" "-c" "oniguruma/src/iso8859_11.c"
+exit status: 0
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/iso8859_14.o" "-c" "oniguruma/src/iso8859_14.c"
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/iso8859_13.o" "-c" "oniguruma/src/iso8859_13.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/iso8859_15.o" "-c" "oniguruma/src/iso8859_15.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/iso8859_16.o" "-c" "oniguruma/src/iso8859_16.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/euc_tw.o" "-c" "oniguruma/src/euc_tw.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/euc_kr.o" "-c" "oniguruma/src/euc_kr.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/big5.o" "-c" "oniguruma/src/big5.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/gb18030.o" "-c" "oniguruma/src/gb18030.c"
+exit status: 0
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/koi8_r.o" "-c" "oniguruma/src/koi8_r.c"
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/cp1251.o" "-c" "oniguruma/src/cp1251.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/euc_jp_prop.o" "-c" "oniguruma/src/euc_jp_prop.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/sjis_prop.o" "-c" "oniguruma/src/sjis_prop.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/unicode_unfold_key.o" "-c" "oniguruma/src/unicode_unfold_key.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/unicode_fold1_key.o" "-c" "oniguruma/src/unicode_fold1_key.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/unicode_fold2_key.o" "-c" "oniguruma/src/unicode_fold2_key.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-arch" "arm64" "-I" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out" "-I" "oniguruma/src" "-DHAVE_UNISTD_H=1" "-DHAVE_SYS_TYPES_H=1" "-DHAVE_SYS_TIME_H=1" "-o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/unicode_fold3_key.o" "-c" "oniguruma/src/unicode_fold3_key.c"
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+cargo:rerun-if-env-changed=AR_aarch64-apple-darwin
+AR_aarch64-apple-darwin = None
+cargo:rerun-if-env-changed=AR_aarch64_apple_darwin
+AR_aarch64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+cargo:rerun-if-env-changed=ARFLAGS_aarch64-apple-darwin
+ARFLAGS_aarch64-apple-darwin = None
+cargo:rerun-if-env-changed=ARFLAGS_aarch64_apple_darwin
+ARFLAGS_aarch64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+running: ZERO_AR_DATE="1" "ar" "cq" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/libonig.a" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/regexec.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/regerror.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/regparse.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/regext.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/regcomp.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/reggnu.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/regenc.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/regsyntax.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/regtrav.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/regversion.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/st.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/regposerr.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/onig_init.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/unicode.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/ascii.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/utf8.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/utf16_be.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/utf16_le.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/utf32_be.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/utf32_le.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/euc_jp.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/sjis.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/iso8859_1.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/iso8859_2.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/iso8859_3.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/iso8859_4.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/iso8859_5.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/iso8859_6.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/iso8859_7.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/iso8859_8.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/iso8859_9.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/iso8859_10.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/iso8859_11.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/iso8859_13.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/iso8859_14.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/iso8859_15.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/iso8859_16.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/euc_tw.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/euc_kr.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/big5.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/gb18030.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/koi8_r.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/cp1251.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/euc_jp_prop.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/sjis_prop.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/unicode_unfold_key.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/unicode_fold1_key.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/unicode_fold2_key.o" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/oniguruma/src/unicode_fold3_key.o"
+exit status: 0
+running: "ar" "s" "/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out/libonig.a"
+exit status: 0
+cargo:rustc-link-lib=static=onig
+cargo:rustc-link-search=native=/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/build/onig_sys-0fbbe71ab0d0cce6/out

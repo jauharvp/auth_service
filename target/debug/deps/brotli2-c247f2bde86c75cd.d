@@ -1,0 +1,11 @@
+/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/deps/brotli2-c247f2bde86c75cd.rmeta: /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/brotli2-0.3.2/src/lib.rs /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/brotli2-0.3.2/src/raw.rs /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/brotli2-0.3.2/src/bufread.rs /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/brotli2-0.3.2/src/read.rs /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/brotli2-0.3.2/src/write.rs
+
+/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/deps/libbrotli2-c247f2bde86c75cd.rlib: /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/brotli2-0.3.2/src/lib.rs /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/brotli2-0.3.2/src/raw.rs /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/brotli2-0.3.2/src/bufread.rs /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/brotli2-0.3.2/src/read.rs /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/brotli2-0.3.2/src/write.rs
+
+/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/deps/brotli2-c247f2bde86c75cd.d: /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/brotli2-0.3.2/src/lib.rs /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/brotli2-0.3.2/src/raw.rs /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/brotli2-0.3.2/src/bufread.rs /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/brotli2-0.3.2/src/read.rs /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/brotli2-0.3.2/src/write.rs
+
+/Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/brotli2-0.3.2/src/lib.rs:
+/Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/brotli2-0.3.2/src/raw.rs:
+/Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/brotli2-0.3.2/src/bufread.rs:
+/Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/brotli2-0.3.2/src/read.rs:
+/Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/brotli2-0.3.2/src/write.rs:

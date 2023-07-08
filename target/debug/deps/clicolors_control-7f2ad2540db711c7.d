@@ -1,0 +1,10 @@
+/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/deps/clicolors_control-7f2ad2540db711c7.rmeta: /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clicolors-control-1.0.1/src/lib.rs /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clicolors-control-1.0.1/src/common.rs /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clicolors-control-1.0.1/src/terminfo.rs /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clicolors-control-1.0.1/src/unix.rs
+
+/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/deps/libclicolors_control-7f2ad2540db711c7.rlib: /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clicolors-control-1.0.1/src/lib.rs /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clicolors-control-1.0.1/src/common.rs /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clicolors-control-1.0.1/src/terminfo.rs /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clicolors-control-1.0.1/src/unix.rs
+
+/Users/jauharali/Documents/Dev/Rust/auth_service/target/debug/deps/clicolors_control-7f2ad2540db711c7.d: /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clicolors-control-1.0.1/src/lib.rs /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clicolors-control-1.0.1/src/common.rs /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clicolors-control-1.0.1/src/terminfo.rs /Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clicolors-control-1.0.1/src/unix.rs
+
+/Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clicolors-control-1.0.1/src/lib.rs:
+/Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clicolors-control-1.0.1/src/common.rs:
+/Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clicolors-control-1.0.1/src/terminfo.rs:
+/Users/jauharali/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clicolors-control-1.0.1/src/unix.rs:
